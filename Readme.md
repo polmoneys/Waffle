@@ -2,6 +2,34 @@
 
 Simplest Waffle with `svg` & `react`. [Demo](https://github.com/polmoneys/Waffle)
 
+### Waffle
+
+Some props to get you started. 
+
+```ts
+
+export interface WaffleItem {
+label: string
+value: number
+color?: string
+id: string
+}
+
+interface WaffleChartProps {
+data: WaffleItem[]
+layout?: string[]
+columns: number
+rows?: number
+cellSize?: number
+cellGap?: number
+onSelectItem?: (point: WaffleItem) => void
+canSelect?: boolean
+onSelect?: (summary: any) => void
+}
+
+
+```
+
 ### Free the Waffles
 
 DIY version available, you `draw a map` with empty spaces as `e` and filled with `x`. 
