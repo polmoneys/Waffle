@@ -1,6 +1,6 @@
 ## TLDR
 
-Simplest Waffle with `svg` & `react`. [Demo](https://github.com/polmoneys/Waffle)
+Simplest Waffle with `svg` & `react`. [Demo](https://polmoneys.github.io/Waffle/)
 
 ### Waffle
 
